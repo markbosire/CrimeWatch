@@ -1,0 +1,206 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CrimeWatch
+</name>
+</assembly>
+<members>
+<member name="T:CrimeWatch.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.criminal_analysis">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.criminalentry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.ddd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.entercrimes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.FotoJet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.FotoJet_overlay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.logo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.skimask">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.ssmvtnogc7ue0jufjd03h6mj89">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.transparent__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CrimeWatch.My.Resources.Resources.yyy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CriminalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.PoliceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CriminalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.PoliceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CrimesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.CriminalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSet.PoliceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.CrimeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.CrimesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.CriminalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.PoliceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CrimeWatch.CrimeWatchDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CrimeWatch.CrimeWatchDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CrimeWatch.CrimeWatchDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.UpdateAll(CrimeWatch.CrimeWatchDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CrimeWatch.CrimeWatchDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
